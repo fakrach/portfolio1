@@ -23,7 +23,7 @@ body{
     top: 0;
     left: 0;
     z-index: 10;
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(210, 210, 210);
     letter-spacing: 1.5;
 }
 
@@ -85,7 +85,7 @@ aside ul li a{
     display: block;
     margin: 5px;
     letter-spacing: 1.4;
-    color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
     font-family:sans-serif;
 }
 aside ul li a.active{
