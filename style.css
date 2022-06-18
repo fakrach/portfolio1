@@ -214,11 +214,12 @@ h3.my-profession
 {
     background-color: #040404;
     position: relative;
-    top: 650px;
+    top: 660px;
     left: 700px;
     width: 25%;
     height: 50px;
     border-radius: 10px;
+    position: fixed;
 }
 
 .navbar a{
@@ -229,4 +230,135 @@ h3.my-profession
     font-size: 30px;
     width: 10px;
     color: white;
+}
+
+.navbar a:hover
+{
+    color: #35E635;
+}
+
+
+/*----about----*/
+.about-section{
+    min-height: 100vh;
+    display: flex;
+    color:aliceblue;
+}
+
+.about-section .title
+{
+    width: 100%;
+    position: relative;
+    bottom: 140px;
+    font-size: 32px;
+}
+.about-section .title::before
+{
+    content: " ";
+    position:absolute;
+    width: 80px;
+    height: 20px;
+    border-bottom: #35E635 solid 10px;
+    left: 5px;
+    bottom: -10px;
+}
+.about-section .title::after
+{
+    content: " ";
+    position:absolute;
+    width: 40px;
+    height: 20px;
+    border-bottom: #35E635 solid 10px;
+    left: 5px;
+    bottom: -30px;
+}
+
+
+.about-section .about-text
+{
+    width: 50%;
+    padding: 30px;
+    background-color: #35E635;
+    border-radius: 10px;
+    opacity: 0.7;
+    box-shadow: #4f4e4e 5px 5px 5px 5px;
+    height: 350px;
+}
+.about-text h1{
+    color: #d6d6d6;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    background-color: #040404;
+    border-radius: 5px;
+    width: 200px;
+}
+.about-text p
+{
+    color: #fffcfc;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.info{
+    display: flex;
+    padding-top: 20px;
+}
+.info div{
+    padding-left: 50px;
+}
+.info div label 
+{
+    color: #000000;
+    font-size: 16px;
+    background-color: #fffdfd;
+    border-radius: 5px;
+    padding: 5px;
+}
+.address{
+    position: absolute;
+    left: 234px;
+}
+.info div h4{
+    color: #000000;
+    letter-spacing: 1.3px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.about-image
+{
+    width: 30%;
+    height: 350px;
+    padding-left: 150px;
+}
+
+.about-image img
+{
+    width: 250px;
+    height: 350px;
+}
+
+.about-image::after
+{
+    content: " ";
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    border-bottom: 7px solid #35E635;
+    border-right: 7px solid #35E635;
+    right: 120px;
+    bottom: -40px;
+}
+
+.about-image::before
+{
+    content: " ";
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    border-top: 7px solid #35E635;
+    border-left: 7px solid #35E635;
+    right: 380px;
+    top: 0;
 }
